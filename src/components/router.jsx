@@ -1,7 +1,7 @@
 const RouterPage = () => {
     return (
         <>
-            <h1>Router Pages</h1>
+            <h1>Router Page</h1>
         </>
     );
 }

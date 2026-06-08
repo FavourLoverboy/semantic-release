@@ -26,7 +26,7 @@ function App() {
                     className="counter"
                     onClick={() => setCount((count) => count + 1)}
                 >
-                    Counts is {count}
+                    Count is {count}
                 </button>
             </section>
 

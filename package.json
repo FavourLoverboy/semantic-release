@@ -1,7 +1,7 @@
 {
   "name": "vite-project",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.0-PLACEHOLDER",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -22,6 +22,17 @@
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.2",
     "globals": "^17.6.0",
+    "semantic-release": "^24.2.9",
     "vite": "^8.0.12"
+  },
+  "release": {
+    "branches": [
+      "main", "master"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/github"
+    ]
   }
 }

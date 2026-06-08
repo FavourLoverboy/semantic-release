@@ -1,4 +1,4 @@
-const RouterPage = () => {
+const RouterNewPage = () => {
     return (
         <>
             <h1>Router Page</h1>
@@ -6,4 +6,4 @@ const RouterPage = () => {
     );
 }
  
-export default RouterPage;
+export default RouterNewPage;
